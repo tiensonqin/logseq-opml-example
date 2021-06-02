@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      canary changelog
+    </title>
+  </head>
+  <body>
+    <outline text="&#10;&#10;"/>
+    <outline text="[[Apr 30th, 2021]]" _note="  Canary Version 0.0.1&#10;  Desktop app download link:&#10;  https://github.com/logseq/logseq/releases/tag/0.0.1&#10;  &#10;  Logseq Canary is for early adopters and developers to test new features and APIs without affecting the stable working environment. It will be installed as a separate app besides the stable one.&#10;  &#10;&#10;">
+      <outline text="This is the first canary release, introducing the big refactoring of Logseq. The rationale behind the refactoring is detailed here [[The Refactoring Of Logseq]] . Overall, it makes the code simpler and more robust, fixes some long-standing issues along the way and paves the way for upcoming features."/>
+      <outline text="[[Enhancement]]">
+        <outline text="A refactored core that is simpler and more robust."/>
+        <outline text="A much better undo/redo experience."/>
+        <outline text="Better keyboard navigation:">
+          <outline text="[](https://user-images.githubusercontent.com/45989292/116767907-a44f2080-aa65-11eb-9cc3-e2ed34e4b6aa.gif)"/>
+          <outline text="We've made most of above shortcuts customizable as well. If you don't like arrow keys, you can change it. Also for navigation keys in auto-completion, search, and more." _note="			  Check [[Custom keyboard shortcuts]] for more details!&#10;"/>
+        </outline>
+        <outline text="Markdown improvements:">
+          <outline text="The grammar of properties changes as below while staying the same in Org mode:" _note="&gt; title&#10;&gt;&#10;&gt; body&#10;"/>
+          <outline text="Support unordered list as headings"/>
+          <outline text="Support headings as top-level blocks, with convenient /h1 ~ /h6 commands"/>
+        </outline>
+      </outline>
+    </outline>
+  </body>
+</opml>

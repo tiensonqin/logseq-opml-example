@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      term/bullet
+    </title>
+  </head>
+  <body>
+    <outline text="description:">
+      <outline text="small circle to the left of text or other content, bullets are put to the left of block and embeds, but can also be entered within blocks using appropriate text syntax"/>
+    </outline>
+    <outline text="produced by:">
+      <outline text="bullets for blocks and embeds are created automatically by Logseq"/>
+      <outline text="bullets within blocks are produced by starting any text following an internal line break with a +, or * followed by a space"/>
+    </outline>
+    <outline text="example:">
+      <outline text="" _note="   * bullet within blocks +&#10;   * bullet within blocks *"/>
+    </outline>
+  </body>
+</opml>

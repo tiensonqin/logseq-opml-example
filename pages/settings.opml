@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      settings
+    </title>
+  </head>
+  <body>
+    <outline text="How to open settings?">
+      <outline text="Click the top-right three-dots button to expand menu list and select `Settings`"/>
+      <outline text="Or type `t s` command to toggle the `Settings` menu when not in text editing"/>
+    </outline>
+    <outline text="{{embed [[Basic settings]]}}"/>
+    <outline text="[[config.edn]]"/>
+  </body>
+</opml>

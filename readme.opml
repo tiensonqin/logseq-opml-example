@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      readme
+    </title>
+  </head>
+  <body>
+    <outline text="Logseq.com docs"/>
+    <outline text="Contributing" _note="  1. Clone this repo locally&#10;  2. Open the repo in Logseq.com&#10;  3. Make your edits and submit a PR!&#10;  &#10;  To contribute you will want to see how your changes look in logseq.com. In order to do this you&#10;  should:&#10;  &#10;"/>
+  </body>
+</opml>

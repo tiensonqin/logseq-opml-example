@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      page and block references
+    </title>
+  </head>
+  <body>
+    <outline text="Type `[[]]` to create or reference any other page. You can also make a new page in the search bar."/>
+    <outline text="Type `(())` to reference a block on any page."/>
+    <outline text="If you want to reference a page or block with custom display label, check out [[term/page link with label]] or [[term/block link with label]]"/>
+    <outline text="related terms:">
+      <outline text="{{embed [[term/page link]]}}"/>
+      <outline text="{{embed [[term/block link]]}}"/>
+      <outline text="{{embed [[term/page link with label]]}}"/>
+      <outline text="{{embed [[term/block link with label]]}}"/>
+    </outline>
+  </body>
+</opml>

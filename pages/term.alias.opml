@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      term/alias
+    </title>
+  </head>
+  <body>
+    <outline text="" _note="&#10;"/>
+    <outline text="description:">
+      <outline text="an alternate page ID or page title"/>
+      <outline text="page references with the alias will automatically redirect to the original page"/>
+    </outline>
+    <outline text="produced by:">
+      <outline text="a page title can be given aliases by adding frontmatter(aka `first block of any page` ) to the page properties">
+        <outline text="Markdown:" _note="``` markdown&#10;alias:: page1, page2&#10;```"/>
+        <outline text="org-mode:" _note="``` org-mode&#10;#+ALIAS: page1, page2&#10;```"/>
+      </outline>
+    </outline>
+  </body>
+</opml>

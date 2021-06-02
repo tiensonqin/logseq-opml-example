@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      changelog
+    </title>
+  </head>
+  <body>
+    <outline text="[[Jun 2nd, 2021]]" _note="  **Beta 0.1.3**&#10;  Desktop app download link: https://github.com/logseq/logseq/releases/tag/0.1.3&#10;">
+      <outline text="{{embed ((60b3a414-1e93-46c3-96fc-54d3a0760f2c))}}"/>
+      <outline text="[[Thanks]] 🚀">
+        <outline text="[[bensu]] for a [[Calculator]] mode like numi or soulver (there'll be another PR!)" _note="		  https://discuss.logseq.com/t/calculator-mode-like-numi-or-soulver/1059&#10;"/>
+        <outline text="[[devon]] for adding `resolve-input` for more Datalog queries" _note="		  https://github.com/logseq/logseq/pull/2061&#10;"/>
+      </outline>
+      <outline text="[[Fixed Issues]]">
+        <outline text="Linked references could be lost when files have been updated on the disk">
+          <outline text="By another editor or Logseq in another device"/>
+        </outline>
+        <outline text="Can't copy and paste multiple blocks into the first empty block"/>
+        <outline text="Can't jump to pages on mobile"/>
+        <outline text="Keep CodeMirror mode as null when language not set"/>
+      </outline>
+      <outline text="[[Features]]">
+        <outline text="Export either the graph or a page as OPML 🎉"/>
+      </outline>
+    </outline>
+    <outline text="[[May 30th, 2021]]" _note="  **Beta 0.1.2**&#10;  Desktop app download link: https://github.com/logseq/logseq/releases/tag/0.1.2&#10;">
+      <outline text="{{embed ((60b3a414-1e93-46c3-96fc-54d3a0760f2c))}}"/>
+      <outline text="[[Thanks]]">
+        <outline text="[[Matt Furden]] for wonderful bug reporting"/>
+      </outline>
+      <outline text="[[Fixed Issues]]">
+        <outline text="All the existing Markdown converter issues"/>
+        <outline text="Most issues related to copy &amp;&amp; paste"/>
+        <outline text="Sometimes the cursor will jump to the end when editing the first block"/>
+        <outline text="Weird characters on code blocks"/>
+      </outline>
+    </outline>
+    <outline text="[[May 29th, 2021]]" _note="  **Beta 0.1.1**&#10;  Desktop app download link: https://github.com/logseq/logseq/releases/tag/0.1.1&#10;  Logseq.com is updated too. &#10;&#10;">
+      <outline text="**How to migrate to the new Markdown syntax?**">
+        <outline text="&lt;div style=&quot;position: relative; padding-bottom: 53.59375000000001%; height: 0;&quot;&gt;&lt;iframe src=&quot;https://www.loom.com/embed/19df38ad08e04bc4978d38d4a3e251b7&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;" _note="[:hr]"/>
+      </outline>
+      <outline text="[[Thanks]]">
+        <outline text="[[Matt Furden]] for *Stop scrollbar from causing content shift*"/>
+        <outline text="[[Hindol Adhya]] for *Scroll to previously saved scroll position*"/>
+      </outline>
+      <outline text="[[Fixed Issues]]">
+        <outline text="Converter choke on filters"/>
+        <outline text="Convertor doesn't recognize `background_color` and `custom_id`"/>
+        <outline text="`property` query doesn't work"/>
+        <outline text="Page alias parsing issue"/>
+        <outline text="Nested pages references"/>
+        <outline text="Heading rendering in the right sidebar"/>
+        <outline text="Code block editing"/>
+        <outline text="Don't export file paths when publishing"/>
+      </outline>
+      <outline text="[[Enhancement]]">
+        <outline text="Forbid nested page/block preview"/>
+        <outline text="Better code block style in the dark mode"/>
+        <outline text="Override block if it's empty when pasting blocks"/>
+      </outline>
+      <outline text="[[Features]]">
+        <outline text="{{embed [[setting/theme modes]]}}"/>
+      </outline>
+    </outline>
+    <outline text="[[May 25th, 2021]]" _note="  **Beta 0.1.0** 🥳🥳🥳&#10;  Desktop app download link: https://github.com/logseq/logseq/releases/tag/0.1.0&#10;">
+      <outline text="[[Thanks]]">
+        <outline text="[[Cobblebot]] for [[Glossary]]"/>
+        <outline text="[[Dario]] for another amazing video [[Cultivating a 'digital knowledge garden']]" _note="		  {{youtube(https://www.youtube.com/watch?v=SUOdfa3MucE)}}&#10;"/>
+        <outline text="[[Nami]] for building [logseq-bonofix-theme](https://github.com/Sansui233/logseq-bonofix-theme)"/>
+      </outline>
+      <outline text="[[Fixed Issues]]">
+        <outline text="Drag files to logseq can be stuck"/>
+        <outline text="Block marker/priority is not displayed in references"/>
+        <outline text="Sometimes backspace removes two chars instead of one"/>
+        <outline text="Content can be lost when auto-complete page references"/>
+        <outline text="Copy doesn't include collapsed children"/>
+        <outline text="Page alias with spaces"/>
+        <outline text="Adding a &quot;#tag&quot; at the front of a block clear the whole block"/>
+        <outline text="Preserve spaces in the block's content"/>
+        <outline text="Can't insert a template in the first block"/>
+        <outline text="Page blank after clearing cache"/>
+        <outline text="Convert - to * for repeated task states (for markdown)"/>
+      </outline>
+      <outline text="[[Enhancement]]">
+        <outline text="Switch default indentation to tab for markdown users"/>
+        <outline text="Unlinked references are much faster now"/>
+        <outline text="Separate page properties from block properties"/>
+      </outline>
+      <outline text="[[Features]]">
+        <outline text="[[Page and block preview]]">
+          <outline text="" _note="     1. You can edit the blocks directly in the preview tooltip."/>
+          <outline text="" _note="     2. You can disable/enable it on the settings page, it's called `Enable tooltip`"/>
+          <outline text="" _note="     3. ![2021-05-25 02.52.53.gif](../assets/2021-05-25_02.52.53_1621882676163_0.gif)"/>
+        </outline>
+      </outline>
+    </outline>
+    <outline text="[[May 19th, 2021]]" _note="  **Canary 0.0.4**&#10;  Desktop app download link: https://github.com/logseq/logseq/releases/tag/0.0.4&#10;&#10;">
+      <outline text="[[Thanks]]">
+        <outline text="[[ChrisLasar]] for this wonderful user-driven documentation creation for Logseq" _note="		  https://chrislasar.github.io/logseq-doc/&#10;"/>
+        <outline text="[[pengx17]] for the first community plugin - a datascript playground!" _note="		  https://github.com/pengx17/logseq-query-playfround&#10;"/>
+        <outline text="[[lezuber]] for this tool to downloads all images to the local /assets folder."/>
+        <outline text="[[Dario]] for this beautiful video series [[How to get started in Logseq]]" _note="		  {{youtube(https://www.youtube.com/watch?v=qtN7qqdeTwU&amp;ab_channel=OneStutteringMind)}}&#10;"/>
+      </outline>
+      <outline text="[[Fixed Issues]]">
+        <outline text="Creating and editing blocks in linked references and unlinked references"/>
+        <outline text="Copy &amp;&amp; paste text can split into multiple block"/>
+        <outline text="Slow editing when there're many files"/>
+        <outline text="And tons of bugs"/>
+      </outline>
+      <outline text="[[Enhancement]]">
+        <outline text="**Add our old direct outdenting back and make it default**">
+          <outline text="There's an option &quot;Enable logical outdenting&quot; on the settings page [[setting/enable logical outdenting]]"/>
+          <outline text="Related thread: https://discuss.logseq.com/t/whats-your-preferred-outdent-behavior-the-direct-one-or-the-logical-one/978"/>
+        </outline>
+        <outline text="Add a &quot;Clear cache&quot; button in the settings page">
+          <outline text="It'll clear both search cache and logseq's database's cache"/>
+        </outline>
+        <outline text="Search in page should be much faster now"/>
+        <outline text="**Opt-out Sentry.io tracking**" _note="		  You can disable it on the settings page too&#10;"/>
+      </outline>
+    </outline>
+    <outline text="[[Apr 19th, 2021]]" _note="  **Version 0.0.20**&#10;  Desktop app download link: https://github.com/logseq/logseq/releases/tag/0.0.20&#10;">
+      <outline text="[[Thanks]]">
+        <outline text="[[Testimonials]]">
+          <outline text="((607d1394-3b32-4613-9acf-9bade8ad7817))"/>
+        </outline>
+        <outline text="[[Fixed Issues]]">
+          <outline text="Don't show assets and block ids in graph view"/>
+          <outline text="Switching graphs makes the journal page queries disappear"/>
+          <outline text="Can't exit when there's no graph"/>
+          <outline text="Block ref should be able to wrap"/>
+          <outline text="Scroll in the right sidebar doesn't affect the main view"/>
+        </outline>
+        <outline text="[[Enhancement]]">
+          <outline text="A toggle icon for the right sidebar is always on the top right">
+            <outline text="The shortcut is `t r` , notice it only works in non-editing mode"/>
+          </outline>
+          <outline text="Both the main view and the right sidebar have scrollbars now"/>
+          <outline text="Contents/Recent/Page graph/Help are always on the top of the right sidebar"/>
+        </outline>
+      </outline>
+    </outline>
+    <outline text="[[Apr 12th, 2021]]" _note="  **Version 0.0.19**&#10;  Desktop app download link: https://github.com/logseq/logseq/releases/tag/0.0.19&#10;">
+      <outline text="[[Thanks]]">
+        <outline text="[[Testimonials]]">
+          <outline text="{{embed ((607454a1-a6a5-4356-af6d-ae5ed0a2051a))}}"/>
+          <outline text="{{embed ((607454a1-043d-4beb-b86e-c513a68ad47e))}}"/>
+        </outline>
+      </outline>
+      <outline text="[[Fixed Issues]]">
+        <outline text="Can't drag &amp;&amp; drop"/>
+        <outline text="Can't set repeater for schedule &amp;&amp; deadlines"/>
+        <outline text="Nested page in page properties"/>
+      </outline>
+      <outline text="[[Enhancement]]">
+        <outline text="Search in current page">
+          <outline text="[[Shortucts]] `Ctrl+Shift+u` or `Cmd+Shift+u` (on Mac)"/>
+        </outline>
+        <outline text="Click `More` to get more search results"/>
+        <outline text="Add custom date format to the settings page"/>
+      </outline>
+    </outline>
+    <outline text="[[Apr 10th, 2021]]" _note="  **Version 0.0.18**&#10;  Desktop app download link: https://github.com/logseq/logseq/releases/tag/0.0.18&#10;">
+      <outline text="[[Thanks]]">
+        <outline text="[[pengx17]] for fixing an issue when clicking bullets in embedded block/page"/>
+        <outline text="[[karlicoss]] for adding check for Docker image consistency"/>
+        <outline text="[[haydenull]] for adding sass/scss/less modes to codemirror and highlight active line"/>
+      </outline>
+      <outline text="[[Fixed Issues]]">
+        <outline text="Can't select blocks in edit mode"/>
+        <outline text="Can't toggle from NOW to LATER"/>
+        <outline text="Add icon for linux appimage"/>
+        <outline text="Re-enable full-text query on the desktop app"/>
+      </outline>
+      <outline text="[[Enhancement]]">
+        <outline text="Full-text search is using SQLite now, which is both fast and more accurate, tested with 10k markdown files"/>
+        <outline text="Add block breadcrumb to search result"/>
+        <outline text="`Enter` will jump and highlight the matched block when searching"/>
+      </outline>
+    </outline>
+    <outline text="[[Apr 1st, 2021]]" _note="  **Version 0.0.17**&#10;  Desktop app download link: https://github.com/logseq/logseq/releases/tag/0.0.17&#10;">
+      <outline text="[[Thanks]]">
+        <outline text="[[pengx17]] for support previewing videos and fixing image resize style issue"/>
+      </outline>
+      <outline text="[[Fixed Issues]]">
+        <outline text="PDF embed doesn't work if the page name has blanks"/>
+        <outline text="Rename page name in raw file view"/>
+        <outline text="Display page's original name in linked references"/>
+        <outline text="Blank page for page graph"/>
+        <outline text="Disable multiple instances at the moment">
+          <outline text="The reason is that in the current system, logseq cached all the graphs locally in IndexedDB, which is impossible to be shared between multiple instances. We also need to handle other situations if we plan to enable multiple instances."/>
+        </outline>
+        <outline text="When selecting some text, the shortcuts for bold, italics and highlight should jump to a correct position"/>
+        <outline text="Multiple parser issues"/>
+      </outline>
+      <outline text="[[Features]]">
+        <outline text="Add an option `:scheduled/future-days` for the `Scheduled and Deadline` section, the default value is `0` , which means it only display tasks for `Today` .">
+          <outline text="For example, if you'd like to see all the scheduled tasks &amp;&amp; deadlines in 7 days, add `:scheduled/future-days 7` to the file `config.edn`"/>
+        </outline>
+      </outline>
+    </outline>
+    <outline text="[[Mar 31st, 2021]]" _note="  **Version 0.0.16**&#10;  Desktop app download link: https://github.com/logseq/logseq/releases/tag/0.0.16&#10;">
+      <outline text="[[Fixed Issues]]">
+        <outline text="Stuck loading on the desktop app"/>
+        <outline text="Re-index should be faster"/>
+        <outline text="File corrupts when editing code blocks"/>
+        <outline text="`/Deadline` sometimes create `/Scheduled`"/>
+        <outline text="Parsing error for page ref followed by a link"/>
+        <outline text="Blank page for bad macros"/>
+        <outline text="Can't change the case of a page name"/>
+        <outline text="Org mode doesn't support image's file path in link"/>
+        <outline text="Add to pages for TAGS and other properties inside block properties"/>
+      </outline>
+      <outline text="[[Features]]">
+        <outline text="Initial **PDF** embed on desktop app">
+          <outline text="" _note="[:hr]&#10;&lt;div style=&quot;position: relative; padding-bottom: 56.25%; height: 0;&quot;&gt;&lt;iframe src=&quot;https://www.loom.com/embed/b550c995cc8b44828d13e6a159461bd4&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;"/>
+        </outline>
+      </outline>
+      <outline text="[[Enhancement]]">
+        <outline text="You don't have to go to edit mode first to select words 😂"/>
+        <outline text="The page graph will auto-refresh when redirecting to a new page">
+          <outline text="" _note="[:hr]&#10;&lt;div style=&quot;position: relative; padding-bottom: 56.25%; height: 0;&quot;&gt;&lt;iframe src=&quot;https://www.loom.com/embed/f9309fec81ff473a87ec7648a2698f96&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;"/>
+        </outline>
+        <outline text="Rendering is much faster thanks to the hints by [[martinklepsch]]"/>
+        <outline text="Scheduled &amp;&amp; deadline includes tasks in the next 7 days too, we'll make the number configurable soon"/>
+        <outline text="Auto update on Mac"/>
+      </outline>
+    </outline>
+    <outline text="[[Mar 28th, 2021]]" _note="  **Version 0.0.15**&#10;  Desktop app download link: https://github.com/logseq/logseq/releases/tag/0.0.15&#10;">
+      <outline text="[[Fixed Issues]]">
+        <outline text="Some queries not working anymore"/>
+        <outline text="Reload stuck on the desktop app"/>
+        <outline text="`#[[some tag]]` has no references"/>
+      </outline>
+    </outline>
+    <outline text="[[Mar 27th, 2021]]" _note="  **Version 0.0.14**&#10;  Desktop app download link: https://github.com/logseq/logseq/releases/tag/0.0.14&#10;">
+      <outline text="[[Thanks]]">
+        <outline text="[ahonn](https://github.com/ahonn) for adding remember electron windows state enhancement"/>
+        <outline text="[martinklepsch](https://github.com/martinklepsch) for both react profiling and adding clj-kondo support"/>
+        <outline text="[pengx17](https://github.com/pengx17) for providing feedback and suggestion on journals loading page"/>
+      </outline>
+      <outline text="[[Features]]">
+        <outline text="[[Export]] graph as markdown files">
+          <outline text="Go to “Export” -&gt; click “Export as Markdown”"/>
+          <outline text="Add config option ‘:export/heading-to-list?’ to toggle exported-heading to bullet list or not"/>
+        </outline>
+        <outline text="Support [[Export]] single page to markdown" _note="		  [](https://user-images.githubusercontent.com/5608710/112099687-ec656280-8bde-11eb-8d69-fe99dedb68a1.gif)&#10;"/>
+        <outline text="New [[Commands]] `/Underline` to support markdown underline"/>
+        <outline text="[[Block Alias]] support with markdown" _note="		  Syntax: `[alias](((block-id)))`&#10;"/>
+        <outline text="Supports render inline html"/>
+      </outline>
+      <outline text="[[Fixed Issues]]">
+        <outline text="Add custom css when publishing"/>
+        <outline text="Graph doesn't show on the full page"/>
+        <outline text="Incorrect journal shortcut in help page"/>
+        <outline text="Copy paste buffer stay intact after deleting blocks"/>
+        <outline text="Don't show brackets for tags"/>
+        <outline text="Roam macro import"/>
+        <outline text="Remove picture-in-picture from youtube iframe for security reason"/>
+        <outline text="Many parser issues fixed by [[Zhiyuan]]"/>
+      </outline>
+      <outline text="[[Enhancement]]">
+        <outline text="Better and smooth loading for journals page"/>
+        <outline text="[[Desktop app]] remembers last window setting when reopened"/>
+      </outline>
+    </outline>
+    <outline text="[[Mar 17th, 2021]]" _note="  **Version 0.0.13**&#10;  Desktop app download link: https://github.com/logseq/logseq/releases/tag/0.0.13&#10;">
+      <outline text="[[Thanks]]">
+        <outline text="[[pengx17]] for adding js/ts/tsx modes to codemirror support"/>
+        <outline text="[Deta](https://twitter.com/detahq) for becoming the first company sponsor"/>
+      </outline>
+      <outline text="[[Features]]">
+        <outline text="Much better publishing experience!" _note="&lt;div style=&quot;position: relative; padding-bottom: 56.25%; height: 0;&quot;&gt;&lt;iframe src=&quot;https://www.loom.com/embed/39a34471c10f498bb5c37e898661b2d9&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;&#10;[:hr]">
+          <outline text="The desktop app can export all the public notes and logseq's Javascript and CSS files to a specified directory, then you can deploy it to GitHub pages, Vercel or your hosting service!" _note="			  &#10;			  Read more at [[Publishing (Desktop App Only)]]&#10;"/>
+        </outline>
+        <outline text="Initial support for [[namespace pages]] , namespace can be used to avoid name conflicts, also, it can be used for building hierarchical relationships later." _note="		  [[book/how to take dummy notes]] will create the parent page `book` .&#10;">
+          <outline text="Discussion thread at https://discuss.logseq.com/t/auto-create-pages-and-assign-page-tags-when-using-namespaces/573"/>
+        </outline>
+        <outline text="[[Export]] graph as an [EDN](https://github.com/edn-format/edn) file, it's mostly for developers who'd like to analysis their graphs using other tools." _note="		  Logseq uses [Datascript](https://github.com/tonsky/datascript) , which is a database provides datalog queries.&#10;">
+          <outline text="Go to &quot;All graphs&quot; -&gt; click &quot;Export as EDN&quot;"/>
+        </outline>
+      </outline>
+      <outline text="[[Fixed Issues]] #highlights">
+        <outline text="Search fails for long text"/>
+        <outline text="Org mode `TITLE` directive after properties"/>
+        <outline text="graph-view width now limited by the main container width"/>
+      </outline>
+      <outline text="[[Enhancement]]">
+        <outline text="Don't create a journal file until input"/>
+        <outline text="Redirect to all pages when no default page in publishing mode"/>
+        <outline text="Display original title when renaming a page"/>
+      </outline>
+    </outline>
+    <outline text="[[Mar 11th, 2021]]" _note="  **Version 0.0.12**&#10;  Desktop app download link: https://github.com/logseq/logseq/releases/tag/0.0.12&#10;">
+      <outline text="[[Thanks]]">
+        <outline text="[[Collin Lefeber]] for adding `/Embed Vimeo video` command"/>
+        <outline text="[[akhater]] for adding `&lt;Pinned` command">
+          <outline text="" _note=""/>
+        </outline>
+        <outline text="[[karlicoss]] for fixing the clojure version in Docker container"/>
+      </outline>
+      <outline text="[[Features]]">
+        <outline text="Enable simple query in [[Advanced Queries]]">
+          <outline text="For example:" _note="&#10;			  &#10;&#10;    {:title &quot;All todos&quot;&#10;    &#10;     :query (todo todo later done)}&#10;    &#10;"/>
+        </outline>
+        <outline text="Much better [[Excalidraw]] integration, type `/draw` to start," _note="		  the excalidraw file will be stored in your local file system too.&#10;">
+          <outline text="**Gif**" _note="&lt;div style=&quot;position: relative; padding-bottom: 56.25%; height: 0; &quot;&gt;&lt;iframe src=&quot;https://www.loom.com/embed/cdc10a6d54644d7c9bb88cdcb3a0168b&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;"/>
+        </outline>
+        <outline text="Desktop app add AppImage format for linux"/>
+      </outline>
+      <outline text="[[Fixed issues]]">
+        <outline text="Linux env titlebar not showing"/>
+        <outline text="Encryption not works on desktop"/>
+        <outline text="Desktop app can't quit"/>
+      </outline>
+      <outline text="[[Enhancement]]">
+        <outline text="The block search results should be more precise"/>
+        <outline text="Undo will open another page in the right sidebar if it's not the same with the current page."/>
+      </outline>
+    </outline>
+    <outline text="[[Mar 8th, 2021]]" _note="  **Version 0.0.11**&#10;">
+      <outline text="[[Thanks]]">
+        <outline text="[[Sam]] for adding filters"/>
+        <outline text="[[Piotr]] released the wonderful [clean theme](https://github.com/PiotrSss/logseq-clean-themes)">
+          <outline text="https://cdn.discordapp.com/attachments/756886540038438992/815659579655585802/wanderer.png"/>
+          <outline text="https://cdn.discordapp.com/attachments/756886540038438992/815659573683683388/night_in_nature.png"/>
+        </outline>
+        <outline text="[[cannibalox]] released a priority matrix" _note="		  https://discuss.logseq.com/t/css-template-eisenhower-matrix/526&#10;">
+          <outline text="https://discuss.logseq.com/uploads/default/original/1X/b7b600c4c91c6108e9900f093dc69c7e91b4038e.gif"/>
+        </outline>
+        <outline text="[[Westofer]] made an archlinux aur package [logseq-desktop-bin](https://aur.archlinux.org/packages/logseq-desktop-bin/)"/>
+        <outline text="[[Bryan Jenks]] made a #gruvbox #theme">
+          <outline text="https://user-images.githubusercontent.com/479169/110302289-0b3af500-8034-11eb-8232-93c3c459f715.jpeg"/>
+        </outline>
+      </outline>
+      <outline text="[[Features]]">
+        <outline text="Linked references [[Filters]] by [[Sam]] 🥳" _note="		  https://github.com/samfundev&#10;">
+          <outline text="https://user-images.githubusercontent.com/6759716/98471636-c2754b80-21bb-11eb-856c-425af4f97ce0.gif"/>
+        </outline>
+      </outline>
+      <outline text="[[Fixed issues]] #highlights">
+        <outline text="Both schedule and deadlines including today's blocks"/>
+        <outline text="Can't click and jump to the embed block"/>
+        <outline text="Allow `.` in tag names"/>
+        <outline text="Don't remember preferred workflows"/>
+        <outline text="Can't open local files on Mac &amp;&amp; Windows"/>
+        <outline text="Display block's content if it doesn't have a title, e.g. code block, image, etc."/>
+        <outline text="Tags autocomplete doesn't work in raw file mode (you can type `s` to switch between the outliner mode and raw file mode)"/>
+        <outline text="Many parser, UI and query issues"/>
+      </outline>
+      <outline text="[[Performance]] improvements">
+        <outline text="It doesn't feel laggy anymore when working with 10k notes"/>
+        <outline text="Logseq can parse [10000 markdown files](https://github.com/Zettelkasten-Method/10000-markdown-files) in 3 minutes on Mac M1 chip"/>
+      </outline>
+      <outline text="[[Enhancement]]">
+        <outline text="Press `t s` to toggle settings"/>
+        <outline text="Display search button by default"/>
+        <outline text="Better search results"/>
+        <outline text="UI improvements"/>
+      </outline>
+    </outline>
+    <outline text="[[Feb 26th, 2021]]" _note="  **Version 0.0.10**&#10;">
+      <outline text="[[Features]]">
+        <outline text="[[Encryption]] support contributed by [[kanru]] 🔒 #experiment" _note="		  Both git repos and local directories support encryption!&#10;		  You need to enable the encryption feature on the settings page, and then re-index your graph to make it works.&#10;"/>
+        <outline text="Resizable right sidebar!"/>
+        <outline text="[[Queries]] support the [[Dynamic Variables]] too" _note="		  For example:&#10;		  {{query((and (page &lt;% today %&gt;) (todo now)))}}&#10;		  {{query((and (between &lt;% 7 days ago %&gt; &lt;% today %&gt;) (todo now done)))}}&#10;"/>
+        <outline text="[[Templates]] support multiple blocks in the same level"/>
+      </outline>
+      <outline text="[[Fixed issues]] #highlights">
+        <outline text="Don't overwrite the file on disk when it's newer than the file cache in logseq"/>
+        <outline text="Can't [[Search]] block body"/>
+        <outline text="Can't delete files on desktop"/>
+        <outline text="Change title in the page property doesn't delete the old file"/>
+        <outline text="Page graph doesn't work for block page"/>
+        <outline text="Custom date configuration not working"/>
+      </outline>
+      <outline text="[[Enhancement]]">
+        <outline text="`Ctrl+Shift+z` or `Command+Shift+z` on Mac to redo"/>
+        <outline text="`t c` to toggle Contents in the right sidebar"/>
+        <outline text="Lots of UI and performance improvements"/>
+      </outline>
+      <outline text="[[Thanks]]">
+        <outline text="[[Kanru]] for encryption support"/>
+        <outline text="[[Piotr]] released [logseq-tools](https://piotrsss.github.io/logseq-tools/public/#/mini-calendar)"/>
+        <outline text="[[Lupin]] supports encryption too"/>
+        <outline text="[[Santi Younger]] add a [Cobra](https://discuss.logseq.com/t/cobra-theme-black-and-yellow-awesome-dark-mode/440/10) theme #theme"/>
+        <outline text="[[Handuo]] add a [Forest night theme](https://discuss.logseq.com/t/forest-night-theme-for-dark-mode/447) #theme"/>
+      </outline>
+    </outline>
+    <outline text="[[Feb 20th, 2021]]" _note="  **Version 0.0.9**&#10;">
+      <outline text="[[Features]]">
+        <outline text="Add the ability to delete your account on the settings page"/>
+        <outline text="[[Custom keyboard shortcuts]] support"/>
+        <outline text="[[Templates]] support [[Dynamic Variables]] now" _note="		  {{embed ((60311eda-b6f7-4779-8187-8830545b3a64))}}&#10;"/>
+        <outline text="**Smarter** [[queries]]" _note="		  Previously, `(and [[Project 1]] (todo now))` will only query those blocks that have both the `Project 1` reference and a `NOW` marker. Now it works as long as if the block parents have the `Project 1` reference and the block has a `NOW` marker.&#10;&#10;">
+          <outline text="For example:" _note="			  {{query((and [[Project 1]] (todo now)))}}&#10;"/>
+          <outline text="[[Project 1]]">
+            <outline text="NOW Do something"/>
+          </outline>
+        </outline>
+        <outline text="Add `data-refs-self` for css mods"/>
+      </outline>
+      <outline text="[[Fixed issues]]">
+        <outline text="Duplicated blocks when editing"/>
+        <outline text="Don't append image width/height metadata when not dragging"/>
+        <outline text="Images from github repos can't be displayed"/>
+        <outline text="`Tab` to collapse not working"/>
+        <outline text="Can't `Enter` to create a block after undo"/>
+        <outline text="Use `Command` instead of `Alt` on Mac"/>
+      </outline>
+      <outline text="[[Enhancement]]">
+        <outline text="Up/Down to navigate to the first/last block"/>
+        <outline text="The parser is much faster now"/>
+      </outline>
+      <outline text="[[Thanks]]">
+        <outline text="[Trigger columns/kanban view with tags](https://discuss.logseq.com/t/css-trigger-columns-kanban-view-with-tags/390) (by [[cannibalox]] )"/>
+        <outline text="[[Piotr]] built a calendar in the &quot;Contents&quot; page!" _note="		  https://dynalist.io/d/ao7N0QbfJfDiZ_dNRnW4PI9_&#10;"/>
+        <outline text="[[Lupin]] can generate the calendars (by [[akhater]] )"/>
+        <outline text="Fix missing update properties when the marker changes (by [[rainmote]] )"/>
+      </outline>
+    </outline>
+    <outline text="[[Feb 14th, 2021]]" _note="  **Version 0.0.8**&#10;">
+      <outline text="[[Thanks]]">
+        <outline text="[[Lupin]] support both Images and [[Time Spaced  Repetition]] (by [[akhater]] )" _note="		  https://github.com/akhater/Lupin&#10;"/>
+        <outline text="Fix of bug &quot;TODO mobile bar shortcut only works when called in the beginning of the line&quot; (#1283) (by [[akhater]] )"/>
+        <outline text="Continue improvements on encryption (by [[kanru]] )"/>
+        <outline text="Using Logseq with Todoist and Google Calendar (by [[WilliamDurin]] )" _note="		  https://github.com/WilliamDurin/todoist2logseq&#10;		  https://github.com/WilliamDurin/gcal2logseq&#10;"/>
+      </outline>
+      <outline text="[[Fixed issues]]">
+        <outline text="Fix block references count not working"/>
+        <outline text="Fix block references auto-complete not working"/>
+        <outline text="Fix wrong prompts when the file is only edited by logseq"/>
+        <outline text="Allow ~-~ inside file name"/>
+        <outline text="Fix relative asset path"/>
+        <outline text="Fix fuzzy search causing freezes/lag"/>
+        <outline text="Display the main menu dots on mobile"/>
+        <outline text="Importing roam's code blocks"/>
+        <outline text="Don't jump to new journal when in editing mode"/>
+        <outline text="And other fixes"/>
+      </outline>
+      <outline text="[[Enhancement]]">
+        <outline text="Better Undo &amp;&amp; Redo"/>
+        <outline text="Faster full-text search"/>
+        <outline text="Add built-in pages such as TODO keywords and priorities"/>
+      </outline>
+    </outline>
+    <outline text="[[Feb 5th, 2021]]" _note="  **Version 0.0.7**&#10;  [[Desktop app]] download link:&#10;  https://github.com/logseq/logseq/releases/tag/0.0.7&#10;">
+      <outline text="[[Features]]">
+        <outline text="1. Auto-update support for desktop app #experiment"/>
+        <outline text="2. Add both `data-refs` and `data-href` attributes to [make css more power](https://discuss.logseq.com/t/propositions-to-empower-css-mods/289/1)"/>
+      </outline>
+      <outline text="[[Thanks]]">
+        <outline text="German translation by [[rcvd]]"/>
+        <outline text="A forked cljs-time by [[rainmote]]"/>
+        <outline text="Add TODO and &quot;/&quot; shortcuts to mobile bar, by [[akhater]]"/>
+        <outline text="[Create Build LogSeq Desktop for windows on Ubuntu](https://github.com/logseq/logseq/blob/master/docs/Build%20LogSeq%20Desktop%20for%20windows%20on%20Ubuntu.md) , by [[akhater]] #doc"/>
+        <outline text="[CSS mod colorful indentation lines](https://discuss.logseq.com/t/css-mod-colorful-indentation-lines/229) , by [[cannibalox]] #css"/>
+        <outline text="[CSS mod custom columns/cards view (kanban)](https://discuss.logseq.com/t/css-mod-custom-columns-cards-view-kanban/228) , by [[cannibalox]] #css"/>
+        <outline text="[Glossary - draft work in progress](https://discuss.logseq.com/t/glossary-draft-work-in-progress/196) , by [[Cobblebot]] #doc"/>
+        <outline text="Awesome video by [[Santi Younger]] [[Videos]]" _note="		  {{youtube(https://www.youtube.com/watch?v=jovMt17_Vd4&amp;ab_channel=SantiYounger)}}&#10;"/>
+      </outline>
+      <outline text="[[Fixed Issues]]" _note="	  Some highlights:&#10;">
+        <outline text="Relative file path issue, local images should be displayed well on GitHub now"/>
+        <outline text="Don't display properties in the block breadcrumbs"/>
+        <outline text="Head's background color is not rendered"/>
+        <outline text="`/draw` not working well with GitHub repos"/>
+      </outline>
+      <outline text="[[Enhancement]]">
+        <outline text="Display a loading button when importing files from the disk"/>
+        <outline text="Display a warning box if there're multiple files with the same `title` attribute"/>
+        <outline text="UI improvements"/>
+      </outline>
+    </outline>
+    <outline text="[[Feb 2nd, 2021]]" _note="  **Version 0.0.6**&#10;  [[Desktop app]] download link:&#10;  https://github.com/logseq/logseq/releases/tag/0.0.6&#10;">
+      <outline text="[[Fixed Issues]]">
+        <outline text="Fix assets can't be opened if there're non-ascii chars"/>
+        <outline text="Add slide support to desktop app"/>
+        <outline text="Fix footnotes not working" _note="		  For example:&#10;		  Here's a simple footnote, [1] and here's a longer one. [bignote]&#10;		  &#10;		  [1] : This is the first footnote.&#10;		  &#10;		  [bignote] : Here's one with multiple paragraphs and code.&#10;"/>
+        <outline text="Fix both preferred workflow and preferred format settings not working"/>
+        <outline text="Fix `/` commands list is empty"/>
+        <outline text="Add windows menubar"/>
+      </outline>
+    </outline>
+    <outline text="[[Jan 31st, 2021]]" _note="  **Version 0.0.5.3**&#10;  [[Desktop app]] download link: https://github.com/logseq/logseq/releases/tag/0.0.5.3&#10;">
+      <outline text="[[Fixed issues]]">
+        <outline text="Fix daily journals can't be created automatically"/>
+        <outline text="Fix Inline tags can't be clickable"/>
+        <outline text="Fix recent pages can't be open in the main view"/>
+        <outline text="Fix block references not updated when the source text changed"/>
+        <outline text="Fix can't found code-editor.js on desktop by [[rainmote]]"/>
+      </outline>
+    </outline>
+    <outline text="[[Jan 29th, 2021]]" _note="  **Version 0.0.5.2**&#10;">
+      <outline text="[[Desktop app]] 🥳🥳🥳" _note="	  Some highlights:&#10;">
+        <outline text="1. Logseq will load new files automatically, no need to reload yourself anymore"/>
+        <outline text="2. There's no need to always asking for the directory write permission every time when you open the app"/>
+        <outline text="3. Drag &amp;&amp; drop any files (in editing mode), you can click the link to open the file with the system default app"/>
+      </outline>
+    </outline>
+    <outline text="[[Jan 12th, 2021]]" _note="  **Version 0.0.5.1**&#10;">
+      <outline text="[[Features]]">
+        <outline text="1. **Local images support!**" _note="		  `Notice:` it only supports local file storage.&#10;		  You can copy and paste any pictures to a page, those pictures will be stored in the folder `assets/` .&#10;">
+          <outline text="We'll support more kinds of files soon, e.g. pdf, epub, mp3, etc."/>
+        </outline>
+        <outline text="2. Added `page` query." _note="		  For example: (page &quot;Page Alias&quot;):&#10;		  {{query((page &quot;Page Alias&quot;))}}&#10;"/>
+        <outline text="[main.js](/assets/pages_changelog_1611805815460_0.js)"/>
+        <outline text=""/>
+      </outline>
+      <outline text="[[Enhancement]]">
+        <outline text="1. **Much stable Undo &amp;&amp; Redo**" _note="		  `Notice` : It could be slow with page that has many blocks.&#10;		  There's a bug with block timestamps enabled, so we disabled it temporally.&#10;"/>
+        <outline text="2. `Ctrl+s` to save and push to GitHub"/>
+        <outline text="3. Add `git-auto-push` to settings page, you can disable the auto push and type `Ctrl+s` to push yourself :)"/>
+        <outline text="4. Add page title when searching blocks"/>
+        <outline text="5. Add an option to disable the journals and set a default home page"/>
+      </outline>
+      <outline text="[[Fixed Issues]]">
+        <outline text="1. Remove duplicate blocks in references"/>
+        <outline text="2. Properties not working well when enter at the start"/>
+        <outline text="3. Can't enter to create a new block at the end of code"/>
+        <outline text="4. Fixed `Scheduled` not working sometime"/>
+        <outline text="5. Unique constraint issue when loading files"/>
+        <outline text="6. Fix `all-page-tags` query"/>
+        <outline text="7. Page refs in properties should be counted too"/>
+        <outline text="8. Codemirror not working well with block timestamps"/>
+        <outline text="9. Do not push local repo when switching repos"/>
+        <outline text="10. Many other bugs on GitHub."/>
+      </outline>
+      <outline text="[[Thanks]]">
+        <outline text="1. [kanru](https://github.com/logseq/logseq/pull/1073) is adding encryption support for GitHub Repos."/>
+        <outline text="2. [karlicoss](https://github.com/logseq/logseq/pull/1076) add filetags support for org mode and fixed some issues."/>
+        <outline text="3. [kailes](https://github.com/logseq/logseq/pull/1074) found and fixed a tricky issue when upgrading to latest shadow-cljs."/>
+      </outline>
+    </outline>
+  </body>
+</opml>

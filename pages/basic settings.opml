@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      basic settings
+    </title>
+  </head>
+  <body>
+    <outline text="[[setting/theme modes]]"/>
+    <outline text="[[setting/show brackets]]"/>
+    <outline text="[[setting/language]]"/>
+    <outline text="[[setting/preferred file format]]"/>
+    <outline text="[[setting/preferred journal format]]"/>
+    <outline text="[[setting/preferred workflow]]"/>
+    <outline text="[[setting/enable logical outdenting]]"/>
+    <outline text="[[setting/enable tooltip]]"/>
+    <outline text="[[setting/enable timetracking]]"/>
+    <outline text="[[setting/enable journals]]"/>
+    <outline text="[[setting/send usage data and diagnostics to logseq]]"/>
+  </body>
+</opml>

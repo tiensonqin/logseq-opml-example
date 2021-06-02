@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      queries
+    </title>
+  </head>
+  <body>
+    <outline text="&#10;&#10;"/>
+    <outline text="**What are &quot;Queries&quot;?**">
+      <outline text="Queries are for asking questions from your knowledge base and the outside world (in the coming weeks)." _note="[:div.text-sm &quot;By &quot; [:a {:href &quot;https://unsplash.com/photos/oMpAz-DN-9I&quot; :target &quot;_blank&quot;} &quot;Greg Rakozy&quot;]]&#10;[:div [:img {:src &quot;https://cdn.logseq.com/%2F5ff0a01d-47d4-487d-b346-4a43ded21ad02020_12_29_photo-1444703686981-a3abbc4d4fe3.jpeg?Expires=4762830816&amp;Signature=h~yT-Tq1VtBtEm09Z78eT5kkEbQGUVG-VBEDuGLgykW8vb~AkZNuoRNmwL-fcHgnG8HdYBhqXeJowN9q3my4UN1bxiJtAXl0dAEjmWAqpbedH9PPdyz2tZXcuPxwdk5wICFLrB~0VWMwV02LFZEKkgPYGhkUU8oakBphifgvTdYPKLQG95FTJh9kg7GhV5ZCc1Q3JrOlLGG2fuUObf1opScwbNbEdsQStO8Ou12AaTPccAmpxAJVuut-jZ9pRvdsa00X962QD9c67BEw1SfhKEcChNIbdp~44ltuRj1Bvc1Bs2ezKupQ1sWFD5BG97UEA7GuOyANjPC331ShW8aHSQ__&amp;Key-Pair-Id=APKAJE5CCD6X7MP6PTEA&quot;}]]"/>
+    </outline>
+    <outline text="" _note=""/>
+    <outline text="**How to write queries?**">
+      <outline text="There're two kinds of queries:" _note="   1. Simple queries by using `{{query }}` , the format is something like this:&#10;    {{query Something you're looking for}}&#10;    &#10;You can type `/query` to create a simple query.&#10;   2. [[Advanced Queries]]"/>
+    </outline>
+    <outline text="**Simple Queries filters**">
+      <outline text="**and**" _note="    (and (todo now later done) [[page]])&#10;    &#10;&#10;	  &#10;&#10;    (and [[page 1]] [[page 2]])&#10;    &#10;&#10;	  Examples:&#10;"/>
+      <outline text="**or**" _note="    (or [[page 1]] [[page 2]])&#10;    &#10;&#10;	  Examples:&#10;"/>
+      <outline text="**not**" _note="    (not [[page 1]] [[page 2]])&#10;    &#10;&#10;	  Examples:&#10;"/>
+      <outline text="**between**" _note="    1. `today|yesterday|tomorrow|now`&#10;    2. `+|-` number `y|m|w|d|h|min`&#10;&#10;Examples:&#10;    (between -7d +7d)&#10;    &#10;    (between -2w today)&#10;    &#10;    &#10;&#10;	  The format `(between start end)` will only support blocks on the journal pages.&#10;	  &#10;	  There're several built-in symbols:&#10;"/>
+      <outline text="**Page**" _note="	  Examples: [[questions]]&#10;	  {{query((and (page &quot;Page Alias&quot;)))}}&#10;"/>
+      <outline text="**property** [[Block properties]]" _note="	  Examples:&#10;	  {{query((property type book))}}&#10;"/>
+      <outline text="**Full-text query**" _note="	  Examples:&#10;	  {{query(&quot;alias&quot;)}}&#10;&#10;"/>
+      <outline text="**todo**" _note="    (todo now)&#10;    &#10;    (todo now later)&#10;    &#10;&#10;	  Examples:&#10;"/>
+      <outline text="**priority**" _note="    (priority a)&#10;    &#10;    (priority a b c)&#10;    &#10;&#10;	  Examples:&#10;"/>
+      <outline text="**page-property**" _note="	  Example:&#10;	  {{query((page-property related &quot;Block embed&quot;))}}&#10;"/>
+      <outline text="**page-tags**" _note="	  Example:&#10;	  {{query((page-tags embed))}}&#10;"/>
+      <outline text="**all-page-tags**" _note="	  Example:&#10;	  {{query((all-page-tags))}}&#10;"/>
+      <outline text="**sort-by**" _note="    (and (todo now later) (sort-by created_at desc))&#10;    &#10;&#10;	  Format: `(sort-by key order)` or `(sort-by key)`&#10;	  `key` : `created_at`  | `last_modified_at`&#10;	  `order` : `desc` or `asc` , omit means `desc` .&#10;"/>
+    </outline>
+    <outline text="**More query examples**">
+      <outline text="1. Find the blocks containing page &quot;tag1&quot;" _note="	  {{query([[tag1]])}}&#10;&#10;    {{query [[tag1]]}}&#10;    &#10;"/>
+      <outline text="2. Find the blocks containing both `tag1` and `tag2`" _note="	  {{query((and [[tag1]] [[tag2]]))}}&#10;&#10;    {{query (and [[tag1]] [[tag2]])}}&#10;    &#10;"/>
+      <outline text="3. Find the blocks containing either `tag1` or `tag2`" _note="	  {{query((or [[tag1]] [[tag2]]))}}&#10;&#10;    {{query (or [[tag1]] [[tag2]])}}&#10;    &#10;"/>
+      <outline text="4. Find the blocks containing `tag2` but not `tag1`" _note="	  {{query((and [[tag2]] (not [[tag1]])))}}&#10;"/>
+      <outline text="5. Find journal blocks created between [[Dec 5th, 2020]] to [[Dec 7th, 2020]]" _note="	  {{query((between [[Dec 5th,2020]] [[Dec 7th,2020]] ))}}&#10;"/>
+      <outline text="6. Find all the blocks created today (you need to enable [[block timestamps]] before using this query)" _note="    {{query (between created_at today tomorrow)}}&#10;    &#10;"/>
+    </outline>
+  </body>
+</opml>

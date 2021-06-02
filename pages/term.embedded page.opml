@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      term/embedded page
+    </title>
+  </head>
+  <body>
+    <outline text="description:">
+      <outline text="shows one Logseq page within a block of a different page and is marked by a different colored background"/>
+    </outline>
+    <outline text="produced by:">
+      <outline text="an embedded page is produced by typing /embed, selecting Page embed, and pasting the page reference at the default cursor location. The result, in editing mode, will be something like this: `{{embed [[term/page]]}}`"/>
+    </outline>
+    <outline text="example:">
+      <outline text="type `/Page Embed`"/>
+      <outline text="{{embed [[term/page]]}}"/>
+    </outline>
+  </body>
+</opml>

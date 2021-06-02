@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      glossary
+    </title>
+  </head>
+  <body>
+    <outline text="" _note=""/>
+    <outline text="Basic terms">
+      <outline text="[[term/graph]]"/>
+      <outline text="[[term/block]]"/>
+      <outline text="[[term/page]]"/>
+      <outline text="[[term/page title]]"/>
+      <outline text="[[term/block title]]"/>
+      <outline text="[[term/bullet]]"/>
+      <outline text="[[term/internal line break]]"/>
+      <outline text="[[term/alias]]"/>
+    </outline>
+    <outline text="References + IDs">
+      <outline text="[[term/page reference]] (equivalent to page title)"/>
+      <outline text="[[term/block reference]]"/>
+      <outline text="[[term/block ID or page ID]]"/>
+    </outline>
+    <outline text="Links">
+      <outline text="[[term/page link]]"/>
+      <outline text="[[term/block link]]"/>
+      <outline text="[[term/page link with label]]"/>
+      <outline text="[[term/block link with label]]"/>
+      <outline text="[[term/web link]]"/>
+      <outline text="[[term/file link]]"/>
+      <outline text="[[term/backlink]]"/>
+    </outline>
+    <outline text="Concepts and Modes">
+      <outline text="[[term/properties]]"/>
+      <outline text="[[term/block rendering]]"/>
+      <outline text="[[term/editing mode]]"/>
+      <outline text="[[term/network of connected ideas]]"/>
+    </outline>
+    <outline text="Embeds">
+      <outline text="[[term/embedded page]]"/>
+      <outline text="[[term/embedded block]]"/>
+    </outline>
+  </body>
+</opml>

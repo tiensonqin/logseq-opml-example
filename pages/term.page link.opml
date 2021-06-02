@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      term/page link
+    </title>
+  </head>
+  <body>
+    <outline text="description:">
+      <outline text="a clickable link that will take you to a particular Logseq page"/>
+    </outline>
+    <outline text="produced by:">
+      <outline text="putting a [page reference]([[term/page reference]])  (i.e. the page title) inside double square brackets `[[ ]]`"/>
+    </outline>
+  </body>
+</opml>

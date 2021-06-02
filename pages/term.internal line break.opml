@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      term/internal line break
+    </title>
+  </head>
+  <body>
+    <outline text="description: a line break within a block"/>
+    <outline text="produced by:">
+      <outline text="users can set Logseq to either of the following behaviors:">
+        <outline text="(default) `Enter` creates a new block and `Shift-Enter` creates an internal line break"/>
+        <outline text="`Shift-Enter` creates a new block and `Enter` creates an internal line break"/>
+        <outline text="In non editing state, user can press `t e` to toggle between those two behavior"/>
+      </outline>
+    </outline>
+  </body>
+</opml>

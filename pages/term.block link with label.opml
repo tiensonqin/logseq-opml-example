@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      term/block link with label
+    </title>
+  </head>
+  <body>
+    <outline text="description:">
+      <outline text="a clickable link that will take you to a particular Logseq block"/>
+    </outline>
+    <outline text="produced by:">
+      <outline text="putting a block link inside markdown link syntax like this:" _note="	  {{embed ((60ab6f5b-a01f-44eb-8d4a-fb8ca1893dcf))}}&#10;"/>
+      <outline text="putting a block link inside org-mode link syntax like this:" _note="	  {{embed ((60ab6f5b-eb43-422b-9e89-0969670af709))}}&#10;"/>
+    </outline>
+    <outline text="example:">
+      <outline text="this is a markdown block link with display alias:" _note="	  [apple](((60a78e9e-59dc-40ab-9a01-5317dc09365f)))"/>
+    </outline>
+  </body>
+</opml>

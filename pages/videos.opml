@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      videos
+    </title>
+  </head>
+  <body>
+    <outline text="How to install logseq app on your GitHub repo?" _note="  {{youtube(Vw-x7yTTO0s)}}&#10;"/>
+    <outline text="How I use Logseq Daily?" _note="  {{youtube(JCIdJBZGQLQ)}}&#10;"/>
+    <outline text="First video on Logseq, also by [[Ed]]" _note="  {{youtube(_BPlbNr6hzY)}}&#10;"/>
+    <outline text="A great series of videos by [[OneStutteringMind]] from basic introduction tutorials to advanced PKM techniques using Logseq" _note="  [More at his YouTube channel](https://www.youtube.com/channel/UCz7EgrAosr5FRF3IErGV-yQ) &#10;  {{youtube(https://www.youtube.com/watch?v=qtN7qqdeTwU)}}&#10;  {{youtube(https://www.youtube.com/watch?v=8cZdHIgwPro)}}"/>
+  </body>
+</opml>

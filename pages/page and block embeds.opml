@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      page and block embeds
+    </title>
+  </head>
+  <body>
+    <outline text="{{embed [[term/embedded page]]}}"/>
+    <outline text="{{embed [[term/embedded block]]}}"/>
+  </body>
+</opml>

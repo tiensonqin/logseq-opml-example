@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      term/file link
+    </title>
+  </head>
+  <body>
+    <outline text="description:">
+      <outline text="a clickable link that will take you to a file outside Logseq (or render image)"/>
+    </outline>
+    <outline text="produced by:">
+      <outline text="putting a file path inside markdown syntax like this: `[link text](file://filepath/myfile)`"/>
+      <outline text="alternative markdown image link syntax (will render image upon block rendering)" _note="	  {{embed ((60aba887-96f4-461f-a9f0-d205d766d78b))}}&#10;"/>
+      <outline text="putting a file path inside org-mode syntax like this:" _note="	  {{embed ((60aba888-5cf4-4cb0-94df-1e4a07b3af34))}}"/>
+    </outline>
+  </body>
+</opml>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      term/block reference
+    </title>
+  </head>
+  <body>
+    <outline text="description:">
+      <outline text="a unique [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier) code assigned to each block with 32 hexadecimal characters and 4 hyphens, eg: `123e4567-e89b-12d3-a456-426614174000`"/>
+    </outline>
+    <outline text="produced by:">
+      <outline text="automatically produced by Logseq"/>
+      <outline text="" _note=""/>
+    </outline>
+  </body>
+</opml>

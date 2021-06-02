@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      one year in logseq
+    </title>
+  </head>
+  <body>
+    <outline text="&#10;&#10;"/>
+    <outline text="**Hello, everyone!**"/>
+    <outline text="**A little about the team**">
+      <outline text="**Michael**" _note="	  ![image.png](../assets/pages_one year in logseq_1616235681415_0.png){:height 560, :width 960}&#10;"/>
+      <outline text="**Charlie**  ![image.png](../assets/pages_one year in logseq_1616235711538_0.png)"/>
+      <outline text="**Zhiyuan**" _note="	  ![image.png](../assets/pages_one year in logseq_1616235763365_0.png)&#10;"/>
+      <outline text="**Weihua**" _note="	  ![image.png](../assets/pages_one year in logseq_1616235785959_0.png)&#10;"/>
+      <outline text="**Junyu**" _note="	  ![CleanShot 2021-03-20 at 18.53.56@2x.png](../assets/pages_one year in logseq_1616237665640_0.png){:height 379, :width 279}&#10;"/>
+      <outline text="I'm Tienson from Hangzhou, thanks to my wife we have a beautiful daughter.">
+        <outline text="![CleanShot 2021-03-20 at 18.15.54@2x.png](../assets/pages_one year in logseq_1616235368782_0.png){:height 557, :width 518}"/>
+      </outline>
+    </outline>
+    <outline text="**What's logseq?**">
+      <outline text="At present, it's a note-taking app">
+        <outline text="It's also a community for knowledge sharing and collaboration, yes, our discord group and forum!"/>
+      </outline>
+      <outline text="In the future, we hope Logseq can be more helpful for everyone around the world."/>
+    </outline>
+    <outline text="**Why the name?**" _note="  I know `log` is for daily notes, what `seq` means?&#10;">
+      <outline text="It's a sequence of our notes, ideas and thoughts. To me it's all the things I want to remember in my life."/>
+    </outline>
+    <outline text="**Why building logseq?**">
+      <outline text="I started a side project called `putchar.org` back in 2018, which is Medium for programmers, a place to publish and discuss tech articles.">
+        <outline text="Unfortunately, it's deprecated after more than 1 year working on it because for me It's hard to build a community and I have some contracts at that time so that I can't focus on it."/>
+        <outline text="But I still want to make it better for general knowledge publishing and collaboration."/>
+        <outline text="Also, many code, especially the parser for logseq are from some of my previous side projects, so failures are not that bad :)"/>
+      </outline>
+      <outline text="I was using both Org-mode and TiddlyWiki for my notes, I want to read my notes and capture some links on mobile, also, I want a better outliner UI on web  compared to text editors like Emacs and Vim."/>
+      <outline text="So, when my last contract ended at the end of 2020, I knew it's the time to build something! 😎"/>
+    </outline>
+    <outline text="**What's the difference between logseq and other tools?**">
+      <outline text="* *The user is the king of the data. * * [[local-first]]" _note="	  Simply put, I don't trust putting my notes and my life on any cloud services without End-to-End encryption support.&#10;"/>
+      <outline text="**Logseq doesn't lock the data.**">
+        <outline text="Even though logseq is an outliner tool, it works directly with plain-text like Markdown and Org mode. We believe in plain-text for data longevity, we believe in standard syntaxes and open protocols for better collaboration with the existing ecosystem."/>
+        <outline text="Shameless plug, logseq might be the **_first_** app that have two-way sync between plain-text and outliner, yay!"/>
+      </outline>
+      <outline text="**Everyone can build their own workflows**" _note="	  Slip box? GTD? Hierarchical tags? With [[Queries]] , [[Advanced Queries]] and coming [[Plugins]] , nothing is impossible!&#10;"/>
+      <outline text="**Open Source**" _note="	  As developers, we believe the ultimate fun is to fork the code and do nasty tweaks!&#10;"/>
+      <outline text="**Being different instead of a clone**">
+        <outline text="Bring org mode's task management and many other features to Markdown"/>
+        <outline text="The first(might be) note-taking app with Git sync on Web (Thanks to [[Isomorphic-git]] )"/>
+        <outline text="The first(might be) note-taking app can work with your local files on Web"/>
+        <outline text="` /Page Embed`"/>
+        <outline text="`/Draw` integration with [[Excalidraw]]"/>
+        <outline text="`Now Later workflow`"/>
+        <outline text="Custom queries on journals page"/>
+        <outline text="Publishing the whole web app to your own website"/>
+      </outline>
+    </outline>
+    <outline text="**The future**">
+      <outline text="More stable and more performant"/>
+      <outline text="Better undo/redo #undotree"/>
+      <outline text="End-to-End encryption storage"/>
+      <outline text="Mobile apps"/>
+      <outline text="Real-time collaboration"/>
+      <outline text="Exploring more ways to help for thoughts"/>
+      <outline text="Who knows?"/>
+    </outline>
+    <outline text="**Thank you everyone for your time, have a great weekend!** 🙏"/>
+  </body>
+</opml>

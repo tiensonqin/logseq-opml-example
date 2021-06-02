@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      desktop app
+    </title>
+  </head>
+  <body>
+    <outline text="&#10;&#10;"/>
+    <outline text="Installation">
+      <outline text="Windows &amp; Mac users can get our latest installation file from [latest release](https://github.com/logseq/logseq/releases/latest)"/>
+      <outline text="We provide [AppImage](https://appimage.org/) from [latest release](https://github.com/logseq/logseq/releases/latest) for Linux users">
+        <outline text="Arch Linux users can leverage below AURs maintained by community">
+          <outline text="[logseq-desktop-bin](https://aur.archlinux.org/packages/logseq-desktop-bin/)"/>
+          <outline text="[logseq-desktop-git](https://aur.archlinux.org/packages/logseq-desktop-git/)"/>
+        </outline>
+        <outline text="NixOS users">
+          <outline text="logseq is available in nixpkgs unstable channel"/>
+          <outline text="install with `nix-env -i logseq`"/>
+        </outline>
+      </outline>
+    </outline>
+  </body>
+</opml>

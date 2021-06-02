@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      term/editing mode
+    </title>
+  </head>
+  <body>
+    <outline text="description:">
+      <outline text="Unlike WYSIWYG editors, Logseq offers two modes to display text: editing mode and non-editing mode."/>
+      <outline text="Editing mode differs from non-editing mode in these ways:">
+        <outline text="Users can only add or edit text to a block when a block is in editing mode (exception: some operations such as copy and paste allow adding or editing text in non-editing mode)."/>
+        <outline text="Block text is not rendered when in editing mode."/>
+        <outline text="Some information, such as block references and link syntax, are shown only in editing mode."/>
+      </outline>
+    </outline>
+    <outline text="produced by:">
+      <outline text="enter editing mode by putting the cursor in a block,">
+        <outline text="either by clicking with the mouse, navigating using the keyboard, or hitting `enter` while a block is highlighted and selected"/>
+      </outline>
+    </outline>
+  </body>
+</opml>

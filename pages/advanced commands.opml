@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      advanced commands
+    </title>
+  </head>
+  <body>
+    <outline text="Advanced commands start with `&lt;` and when selected expand a BEGIN...END section inside a block. There can be multiple BEGIN...END sections in a block."/>
+    <outline text="List of advanced commands:">
+      <outline text="`&lt;Quote` - Displays text as quoted by indenting text and giving it left and right margins."/>
+      <outline text="`&lt;Src` - Syntax highlights code text using CodeMirror. Passing an argument to the block e.g. `#+BEGIN_SRC clojure` sets the language. Default language is javascript."/>
+      <outline text="`&lt;Query` - Defines a block for [[Advanced Queries]] . Block renders query results when not being edited."/>
+      <outline text="`&lt;Properties` - Defines [[Block properties]] . Each line is a different property."/>
+      <outline text="Admonition commands display an icon next to a block to call attention to it for a specific purpose. These are inspired by [Asciidoctor admonitions](https://asciidoctor.org/docs/user-manual/#admonition) .">
+        <outline text="`&lt;Note`"/>
+        <outline text="`&lt;Tip`"/>
+        <outline text="`&lt;Important`"/>
+        <outline text="`&lt;Caution`"/>
+        <outline text="`&lt;Warning`"/>
+      </outline>
+      <outline text="`&lt;Example` - Displays text as an example with white space preservation and a different colored background."/>
+      <outline text="`&lt;Verse` - Displays text that are for poetry by preserving newlines."/>
+      <outline text="`&lt;Comment` - Inlines a comment in a block. Comment is only visible when the block is being edited."/>
+      <outline text="" _note=""/>
+    </outline>
+  </body>
+</opml>

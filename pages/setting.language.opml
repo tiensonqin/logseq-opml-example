@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      setting/language
+    </title>
+  </head>
+  <body>
+    <outline text="You can set your language preference via `Settings`"/>
+    <outline text="Logseq currently supports:">
+      <outline text="English"/>
+      <outline text="French"/>
+      <outline text="German"/>
+      <outline text="Afrikaans"/>
+      <outline text="Simplified Chinese"/>
+      <outline text="Traditional Chinese"/>
+    </outline>
+    <outline text="Related:">
+      <outline text="[[Internationalization]]"/>
+      <outline text="{{embed ((60acdebb-9142-431f-907c-3ad0e6fc0148))}}"/>
+    </outline>
+  </body>
+</opml>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      custom keyboard shortcuts
+    </title>
+  </head>
+  <body>
+    <outline text="" _note="&gt; People come to Logseq from different operating systems, use different keyboard layouts and languages, and have different preferences. Customizable keyboard shortcuts is the only way to make everybody happy. - [[Cobblebot]] [discussion](https://discuss.logseq.com/t/customizable-keyboard-shortcuts/146)&#10;"/>
+    <outline text="**How to setup custom keyboard shortcuts?**" _note="    :shortcuts {:ui/toggle-theme &quot;mod+c mod+t&quot;}&#10;    &#10;&#10;  To add custom shortcuts, you can add/modify the `:shortcuts` section in [[config.edn]] , for example, then restart Logseq.&#10;"/>
+    <outline text="**Which shortcuts could be customized?**" _note="  The default shortcuts are [here](https://github.com/logseq/logseq/blob/master/src/main/frontend/modules/shortcut/config.cljs)&#10;  Click `Learn more` of the help page to see full list of shortcuts by categories.&#10;  ![image.png](../assets/image_1622119180558_0.png)&#10;"/>
+    <outline text="Syntax:">
+      <outline text="`+` means keys pressing simultaneously eg: `ctrl+shift+a`"/>
+      <outline text="` ` empty space between keys means key chords">
+        <outline text="eg: `t t`"/>
+        <outline text="eg: `mod+c mod+t`"/>
+      </outline>
+      <outline text="`mod` means">
+        <outline text="`ctrl` for Linux and Windows"/>
+        <outline text="`cmd` for Macos"/>
+      </outline>
+      <outline text="you can define multiple bindings for one action">
+        <outline text="eg: `:editor/down [&quot;ctrl+j&quot; &quot;down&quot;]`"/>
+      </outline>
+    </outline>
+    <outline text="Example of a vim-like shortcut setup:">
+      <outline text="" _note="``` clojure&#10;:shortcuts&#10; {:editor/new-block &quot;enter&quot;&#10; :editor/new-line &quot;shift+enter&quot;&#10; ;; remap insert-link to something else to avoid conflicts&#10; :editor/insert-link &quot;ctrl+shift+k&quot;&#10; :editor/up [&quot;ctrl+k&quot; &quot;up&quot;]&#10; :editor/down [&quot;ctrl+j&quot; &quot;down&quot;]&#10; :editor/left [&quot;ctrl+h&quot; &quot;left&quot;]&#10; :editor/right [&quot;ctrl+l&quot; &quot;right&quot;]&#10; :editor/open-edit [&quot;i&quot; &quot;enter&quot;]&#10; :editor/backspace [&quot;ctrl+d&quot; &quot;backspace&quot;] &#10; :date-picker/complete [&quot;enter&quot;]&#10; :date-picker/prev-day [&quot;ctrl+h&quot; &quot;left&quot;]&#10; :date-picker/next-day [&quot;ctrl+l&quot; &quot;right&quot;]&#10; :date-picker/prev-week [&quot;ctrl+k&quot; &quot;up&quot;]&#10; :date-picker/next-week [&quot;ctrl+j&quot; &quot;down&quot;] &#10; :auto-complete/prev [&quot;ctrl+k&quot; &quot;up&quot;]&#10; :auto-complete/next [&quot;ctrl+j&quot; &quot;down&quot;]&#10; :auto-complete/complete [&quot;ctrl+l&quot; &quot;enter&quot;]}&#10;```"/>
+    </outline>
+  </body>
+</opml>

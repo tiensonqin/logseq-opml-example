@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      term/block id or page id
+    </title>
+  </head>
+  <body>
+    <outline text="Logseq will **always** generate a unique UUID for both your block or page, so that you can manually embed it or navigate to it (by copying and pasting the ID yourself)."/>
+  </body>
+</opml>

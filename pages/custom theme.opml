@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      custom theme
+    </title>
+  </head>
+  <body>
+    <outline text="There're two ways for custom themes:">
+      <outline text="1. Add a css file &quot;logseq/custom.css&quot;."/>
+      <outline text="" _note="   2. Specify a `:custom-css-url` in &quot;logseq/config.edn&quot;. [[config.edn]]"/>
+    </outline>
+    <outline text="a list of community made `custom.css` can be found [here](https://github.com/logseq/awesome-logseq#css-themes)"/>
+  </body>
+</opml>

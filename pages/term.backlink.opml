@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      term/backlink
+    </title>
+  </head>
+  <body>
+    <outline text="description:">
+      <outline text="A Logseq page link for a page that links to a currently displayed page, whether it has focus or not."/>
+      <outline text="A list of backlinks are presented in a particular location or frame, and “backlinks” refers to the page links in this area only."/>
+    </outline>
+    <outline text="produced by:">
+      <outline text="Automatically created by Logseq."/>
+      <outline text="Create a backlink by  surrounding a word or sentence with a pair of square brackets e.g `[[logseq]]` . Typing `[[` will initiate page auto-completion."/>
+    </outline>
+    <outline text="example:">
+      <outline text="this is a backlink to [[Glossary]]"/>
+    </outline>
+    <outline text="" _note=""/>
+  </body>
+</opml>

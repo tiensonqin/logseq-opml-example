@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      tasks &amp; todos
+    </title>
+  </head>
+  <body>
+    <outline text="Logseq comes with two built-in flavors to mark your block with built-in workflow mark keywords and manage your tasks:" _note="  * `LATER` -&gt; `NOW` -&gt; `DONE` flavor (default)&#10;  * `TODO` -&gt; `DOING` -&gt; `DONE` flavor&#10;  * You can toggle between those two flavors in setting page"/>
+    <outline text="There're two ways to attach workflow mark to your task(block)">
+      <outline text="when editing the block, press `Ctrl/Cmd+enter` to cycle through the workflow mark"/>
+      <outline text="type these mark as command directly, eg `/LATER` `/NOW` `/DONE` `/TODO` etc.."/>
+      <outline text="Some examples:">
+        <outline text="LATER do grocery"/>
+        <outline text="NOW play with Logseq"/>
+        <outline text="DONE watch Doctor Who"/>
+      </outline>
+    </outline>
+    <outline text="Logseq also comes with three built-in priority mark to help you manage with task priorities">
+      <outline text="{{embed ((60ac5b08-d4bb-49de-b415-e63fcf29c59f))}}"/>
+      <outline text="Example:">
+        <outline text="LATER [#A] research balalah is a top priority"/>
+        <outline text="LATER [#C] do grocery has lowest priority"/>
+      </outline>
+    </outline>
+    <outline text="Deadline and Scheduled">
+      <outline text="You can leverage command `/Deadline` to setup a deadline for your task">
+        <outline text="eg: finish reading 1984 by 29th of May" _note="		  DEADLINE: &lt;2021-05-29 Sat&gt;&#10;"/>
+      </outline>
+      <outline text="You can leverage command `/Scheduled` to setup a scheduled task">
+        <outline text="eg: send John a birthday card Monday" _note="		  SCHEDULED: &lt;2021-05-31 Mon&gt;&#10;"/>
+      </outline>
+      <outline text="Both of above commands support to mark the task as repeated:" _note="	  after typing the command and click `Add repeater` in the date picker&#10;">
+        <outline text="eg: daily exercise routine at 7am" _note="		  SCHEDULED: &lt;2021-05-26 Wed 07:00 .+1d&gt;&#10;"/>
+      </outline>
+    </outline>
+    <outline text="Time tracker">
+      <outline text="{{embed ((60acdeba-b3fd-4f90-ab54-3093caa4d5fa))}}"/>
+      <outline text="you can toggle this off by [[setting/enable timetracking]]"/>
+    </outline>
+  </body>
+</opml>

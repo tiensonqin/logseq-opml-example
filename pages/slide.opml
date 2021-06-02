@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      slide
+    </title>
+  </head>
+  <body>
+    <outline text="&#10;&#10;"/>
+    <outline text="Logseq's slide feature is powered by the awesome [[https://revealjs.com/]] ."/>
+    <outline text="**How to use it?**">
+      <outline text="1. Go to a specific non-journal page, click the slide icon right next to the file link." _note="	  It'll open the current page's slide in the right sidebar.&#10;"/>
+      <outline text="2. Press `f` to open the slide in *fullscreen* mode."/>
+    </outline>
+    <outline text="**Questions**">
+      <outline text="1. How to add a background image for a block?">
+        <outline text="Add a `background-image` property #[[Block properties]]" _note="    background-image:: https://images.unsplash.com/photo-1498855926480-d98e83099315&#10;    &#10;"/>
+      </outline>
+      <outline text="How do I set other attributes?">
+        <outline text="Replace the attribute name `data-xyz` with `xyz` ."/>
+      </outline>
+    </outline>
+  </body>
+</opml>

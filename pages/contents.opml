@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      contents
+    </title>
+  </head>
+  <body>
+    <outline text="🌟 [[New to Logseq?]]">
+      <outline text="[[Getting started]]"/>
+      <outline text="[[Migrate to Logseq Beta]]"/>
+      <outline text="[[Videos]]"/>
+      <outline text="[[Desktop app]]"/>
+      <outline text="[[FAQ]]"/>
+      <outline text="[[Glossary]]"/>
+      <outline text="[[Testimonials]]">
+        <outline text="((6071c223-b0ed-4235-80b2-f5e44d3679b9))"/>
+      </outline>
+      <outline text="[Awesome Logseq](https://github.com/logseq/awesome-logseq)"/>
+      <outline text="[Roadmap](https://trello.com/b/8txSM12G/logseq-roadmap)"/>
+      <outline text="[[Changelog]]"/>
+    </outline>
+    <outline text="[[Features]]">
+      <outline text="[Backlink]([[term/backlink]])"/>
+      <outline text="[[Knowledge Graph]]"/>
+      <outline text="[[Page and block references]]"/>
+      <outline text="[[Page and block embeds]]"/>
+      <outline text="[[Tasks &amp; Todos]]"/>
+      <outline text="[[Commands]]"/>
+      <outline text="[[Advanced commands]]"/>
+      <outline text="[[Templates]]"/>
+      <outline text="[Page alias]([[term/alias]])"/>
+      <outline text="[Block properties]([[term/properties]])"/>
+      <outline text="[[Publishing (Desktop App Only)]]"/>
+      <outline text="[[Draw]]"/>
+      <outline text="[[Slide]]"/>
+      <outline text="[[Custom theme]]"/>
+    </outline>
+    <outline text="[[Document syntax]]">
+      <outline text="[[Markdown]]"/>
+      <outline text="[[Org Mode]]"/>
+    </outline>
+    <outline text="👤 [[Settings]]"/>
+    <outline text="✨ [[Tips and Tricks]]"/>
+    <outline text="[[Advanced Logseq]]">
+      <outline text="[[Custom keyboard shortcuts]]"/>
+      <outline text="[[Queries]]"/>
+      <outline text="[[Advanced Queries]]"/>
+      <outline text="[[Hiccup]]"/>
+      <outline text="[[Custom views]]"/>
+      <outline text="[Self Hosting Logseq](https://github.com/dustinlacewell/logseq-guide)"/>
+    </outline>
+    <outline text="[[Changelog 2020]]"/>
+    <outline text="[[Contribute]]">
+      <outline text="Make a [Feature Request](https://discuss.logseq.com/)"/>
+      <outline text="[Check us out on Github](https://github.com/logseq/logseq)"/>
+      <outline text="[Contribute to Our Docs](https://github.com/logseq/docs)"/>
+    </outline>
+    <outline text="💬">
+      <outline text="Message us on [Discord](https://discord.gg/KpN4eHY) (We love feedback!)"/>
+      <outline text="Tweet us [[https://twitter.com/logseq]]"/>
+    </outline>
+  </body>
+</opml>

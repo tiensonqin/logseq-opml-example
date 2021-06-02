@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      page embed
+    </title>
+  </head>
+  <body>
+    <outline text="&#10;&#10;"/>
+    <outline text="Also commonly known as transclusion, page embedding allows an entire page to be displayed within another."/>
+    <outline text="Create a page embed by:">
+      <outline text="Typing `{{{embed [[page name]]}}}`"/>
+    </outline>
+    <outline text="" _note=""/>
+  </body>
+</opml>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      setting/preferred journal format
+    </title>
+  </head>
+  <body>
+    <outline text="You can set your preferred daily journal date format via `Settings` page"/>
+    <outline text="Alternatively, you can add it in [[config.edn]]">
+      <outline text="{{embed ((60acdeb9-aa65-492b-8398-d4d65c1631c1))}}"/>
+      <outline text="Add your favorite date-formatter to [[config.edn]] :" _note="``` clojure&#10;&quot;MMM do, yyyy&quot;&#10;&quot;E, MM/dd/yyyy&quot;&#10;&quot;E, yyyy/MM/dd&quot;&#10;&quot;EEE, MM/dd/yyyy&quot;&#10;&quot;EEE, yyyy/MM/dd&quot;&#10;&quot;EEEE, MM/dd/yyyy&quot;&#10;&quot;EEEE, yyyy/MM/dd&quot;&#10;&quot;MM/dd/yyyy&quot;&#10;&quot;MM-dd-yyyy&quot;&#10;&quot;MM_dd_yyyy&quot;&#10;&quot;yyyy/MM/dd&quot;&#10;&quot;yyyy-MM-dd&quot;&#10;&quot;yyyy_MM_dd&quot;&#10;&quot;yyyy年MM月dd日&quot;&#10;```&#10;	  	  Currently, logseq support:&#10;&#10;``` clojure&#10;:date-formatter &quot;yyyy-MM-dd&quot;&#10;```"/>
+    </outline>
+  </body>
+</opml>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      custom page title
+    </title>
+  </head>
+  <body>
+    <outline text="" _note="&#10;"/>
+    <outline text="description:">
+      <outline text="the content displayed at the top of a page, used to uniquely identify the page"/>
+    </outline>
+    <outline text="produced by:">
+      <outline text="a page is automatically generated with a particular page title when a new page title is either"/>
+      <outline text="1) entered into the Search or Create Page box at the upper-left of the Logseq window"/>
+      <outline text="2) typed into a block within double brackets— [[new page]] —which makes it into a page reference."/>
+    </outline>
+    <outline text="A page title is a property identified at the top of a file with the following syntax:">
+      <outline text="Markdown: **put as the first block of page**">
+        <outline text="" _note="``` markdown&#10;title:: sample page title&#10;		  		  &#10;```"/>
+      </outline>
+      <outline text="Org mode:">
+        <outline text="" _note="``` org-mode&#10;#+TITLE: sample page title&#10;```"/>
+      </outline>
+    </outline>
+  </body>
+</opml>

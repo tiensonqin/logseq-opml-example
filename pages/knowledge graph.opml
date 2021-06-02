@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      knowledge graph
+    </title>
+  </head>
+  <body>
+    <outline text="As you add ideas and thoughts into Logseq and connect them, your knowledge graph grows. Just as your brain generates and connects new neurons to form new knowledge and ideas."/>
+    <outline text="These connections are what makes Logseq so powerful as a second brain, we generate and synthesize information much like your won brain does, but better."/>
+    <outline text="In Logseq, you can filter and even &quot;remember&quot; loose connections by checking out your linked references. You can see all the times you thought about [[Productivity]] and [[Habit Creation]] in their separate nodes and areas of your graph, but you never thought to connect the two. But since you wrote [[Productivity]] and happened to mention [[Habit Creation]] 4 months ago (in some random journal or essay), that proximity and connection live with you forever, even if you never drew the lines in your own head:" _note="  ![image.png](/assets/pages_knowledge_graph_1612308816189_0.png){:height 338, :width 468}&#10;"/>
+    <outline text="Watch your knowledge graph grow by going to your main menu (click your profile picture) -&gt; select &quot;Graph&quot;">
+      <outline text="Here is the [Documentation Graph -&gt;](https://logseq.github.io/graph)"/>
+    </outline>
+    <outline text="related terms:" _note="  {{embed [[term/network of connected ideas]]}}"/>
+  </body>
+</opml>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      setting/preferred file format
+    </title>
+  </head>
+  <body>
+    <outline text="You can set your preferred file format for creating new page."/>
+    <outline text="This setting in `Settings` page works globally across different graphs."/>
+    <outline text="If you'd like to override this setting on a per graph level, check out `:perferred-format` in [[config.edn]]"/>
+    <outline text="Options:">
+      <outline text="`Markdown`"/>
+      <outline text="`Org` for org-mode"/>
+    </outline>
+  </body>
+</opml>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      term/page
+    </title>
+  </head>
+  <body>
+    <outline text="description:">
+      <outline text="a page that is part of your Logseq database"/>
+      <outline text="pages are composed of one or more blocks"/>
+    </outline>
+    <outline text="produced by:">
+      <outline text="entering a new page title in the Search or Create Page field or typing a [[page link]] with a new page title"/>
+    </outline>
+    <outline text="" _note=""/>
+  </body>
+</opml>

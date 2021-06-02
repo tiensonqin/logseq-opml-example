@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      term/page reference
+    </title>
+  </head>
+  <body>
+    <outline text="description:">
+      <outline text="a Logseq page title"/>
+    </outline>
+    <outline text="produced by:">
+      <outline text="entering a new page title in the Search or Create Page field , typing a page link with a new page title"/>
+    </outline>
+  </body>
+</opml>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      draw
+    </title>
+  </head>
+  <body>
+    <outline text="Logseq has [[Excalidraw]] integration built-in, type `/draw` command to start drawing."/>
+    <outline text="{{embed ((60acbe13-f12d-451a-9793-56201f858074))}}"/>
+  </body>
+</opml>

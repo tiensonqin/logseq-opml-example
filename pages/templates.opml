@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      templates
+    </title>
+  </head>
+  <body>
+    <outline text="You can make a block and its children as template for reuse purpose."/>
+    <outline text="For example, let's create a meeting note template block as below for reuse:">
+      <outline text="MEETING TITLE">
+        <outline text="&lt;%today%&gt;"/>
+        <outline text="[[Meeting Tasks]]">
+          <outline text=""/>
+          <outline text=""/>
+          <outline text=""/>
+        </outline>
+        <outline text="discussion"/>
+        <outline text="related notes of same project" _note="		  {{query((property project change-me-later))}}&#10;"/>
+      </outline>
+    </outline>
+    <outline text="There're two ways to make above block and its children as template:">
+      <outline text="" _note="   1. You can right click the block dot and click &quot;Make template&quot; to give it a name:&#10;![template.gif](../assets/template_1621928689810_0.gif)"/>
+      <outline text="" _note="   2. Or you can add [[term/properties]] of `template` with its name directly:&#10;![template2.gif](../assets/template2_1621928922947_0.gif)"/>
+    </outline>
+    <outline text="To use the template, simply type `/Template` command and choose the name of template:" _note="  ![template3.gif](../assets/template3_1621929392325_0.gif)&#10;"/>
+    <outline text="other resources to learn how to template:">
+      <outline text="[[Cobblebot]] contributed this wonderful [tutorial from forum](https://discuss.logseq.com/t/templates-how-to-create-edit-and-insert/200)"/>
+      <outline text="this great video from [[OneStutteringMind]] also shows how to use templates (note the property syntax in this video is no longer used, check [[term/properties]] for latest syntax)" _note="	  {{youtube(https://www.youtube.com/watch?v=l4keRsRFnuc)}}&#10;"/>
+    </outline>
+    <outline text="[[Dynamic Variables]] support">
+      <outline text="**Notice:** [[Macros]] support dynamic variables too"/>
+      <outline text="**Syntax:** `&lt;% something %&gt;`"/>
+      <outline text="**Supported variables:**">
+        <outline text="`today` =&gt; `[[Today's journal page]]`"/>
+        <outline text="`yesterday` =&gt; `[[Yesterday's journal page]]`"/>
+        <outline text="`tomorrow` =&gt; `[[Tomorrow's journal page]]`"/>
+        <outline text="`time` =&gt; `Current time` , e.g. 22:44"/>
+        <outline text="`current page` =&gt; `[[Current page]]`"/>
+        <outline text="[Natural language date](https://github.com/wanasit/chrono)" _note="		  `Last Friday` =&gt; `[[Feb 12th, 2021]]`&#10;">
+          <outline text="" _note="			  Examples from https://github.com/wanasit/chrono&#10;&#10;&gt; - Today, Tomorrow, Yesterday, Last Friday, etc&#10;- 17 August 2013 - 19 August 2013&#10;- This Friday from 13:00 - 16.00&#10;- 5 days ago&#10;- 2 weeks from now&#10;- Sat Aug 17 2013 18:40:39 GMT+0900 (JST)&#10;- 2014-11-30T08:15:30-05:30&#10;"/>
+        </outline>
+      </outline>
+    </outline>
+    <outline text="[:code &quot;including-parent:: false&quot;] is a template property to indicate whether to include the top level content of selected block template">
+      <outline text="example:">
+        <outline text="i'm included by default in template-example-1">
+          <outline text="line1">
+            <outline text="line2"/>
+          </outline>
+        </outline>
+        <outline text="i'm not included because of including-parent setting">
+          <outline text="line1">
+            <outline text="line2"/>
+          </outline>
+        </outline>
+      </outline>
+    </outline>
+  </body>
+</opml>

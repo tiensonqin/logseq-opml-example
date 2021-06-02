@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      getting started
+    </title>
+  </head>
+  <body>
+    <outline text="&#10;&#10;"/>
+    <outline text="Hi, welcome to Logseq!"/>
+    <outline text="" _note="&gt; Logseq is a *privacy-first* , *open-source* platform for *knowledge* sharing and management.&#10;"/>
+    <outline text="Here are some tips that might be useful:">
+      <outline text="Click to edit any block." _note="	  Type `Enter` to start a new block.&#10;	  Type `Shift+Enter` to create a new line in the current block.&#10;	  Type `/` to show all the commands.&#10;	  Type `[[` to reference or create a new page.&#10;	  Type `((` to reference a block on any page.&#10;	  Type `Tab` to indent and `Shift+Tab` to unindent a block.&#10;	  Type `/Draw` for free drawing. &#10;	  Type `&lt;` for more formatting commands (like quotes and tips!)&#10;	  Click the help button at the bottom right to see more keybindings.&#10;"/>
+    </outline>
+    <outline text="Getting Started"/>
+    <outline text="**1. Let's create a page** - called [[How to Take Notes]] . Type `[[]]` to create or reference any other page. You can also make a new page in the search bar.">
+      <outline text="You can click it to actually go to that page, or you can `Shift+Click` to open it in the right sidebar! At the bottom, you'll see both *Linked References* and *Unlinked References* - every single other time you thought about it inside Logseq."/>
+    </outline>
+    <outline text="**2. Let's reference some blocks** - In [[How to Take Notes]] , you can `Shift+Click` any page or block reference to open it in the right sidebar. Try making some changes on the right sidebar, those referenced blocks will be changed too!">
+      <outline text="((60293d41-1351-40ed-aa00-0e0c12be1175)) : This is a block reference."/>
+      <outline text="((60293d41-2c37-43f2-aa0e-4e0ad8e38531)) : This is another block reference."/>
+    </outline>
+    <outline text="**3. Embed a Block** - References aren't enough! I wan't to see and edit any block in my entire Graph! You can embed entire blocks and their children by typing `/` and selecting `Block Embed` :">
+      <outline text="{{embed ((6018cc98-67a8-4eb2-bfd7-2affe517a7c7))}}"/>
+    </outline>
+    <outline text="**4. Embed a Page** - What if I want to embed the whole page? The `/` menu has a option for that - `Page Embed` :">
+      <outline text="{{embed [[How to Take Notes]]}}"/>
+    </outline>
+    <outline text="**5. Use Tags** - Use tags to categorize any page or block, then click on it to see every single time you used it!">
+      <outline text="Check out this #dummy tag."/>
+    </outline>
+    <outline text="**6. Manage your Tasks + Todos** - Do you support tasks like todo/doing/done and priorities?">
+      <outline text="Yes, type press `Ctrl/Cmd + Enter` inside a block to cycle through different TODO statuses or `/` and pick your favorite todo keyword or priority (A/B/C)."/>
+      <outline text="NOW [#A] A dummy tutorial on &quot;How to Take Notes&quot;"/>
+      <outline text="DONE Create Logseq Getting Started"/>
+      <outline text="CANCELED [#C] Write a page with more than 1000 blocks"/>
+    </outline>
+    <outline text="**7. Step back and admire your growing second brain** - After you've created and connected some pages and ideas, check out your digital brain growing!">
+      <outline text="Click on the Graph in the left sidebar!"/>
+    </outline>
+    <outline text="Need more?">
+      <outline text="Check out this awesome video by [:a {:href &quot;https://twitter.com/EdTravelling&quot; :target &quot;_blank&quot;} &quot;@EdTravelling&quot;] , which shows you how to install Logseq app on your GitHub repo and other cool features like graph view." _note="[:div.videoWrapper.mb-4&#10;	        [:iframe&#10;	         {:allowFullScreen &quot;allowfullscreen&quot;&#10;	          :allow&#10;	          &quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot;&#10;	        :frameBorder &quot;0&quot;&#10;	        :src &quot;https://www.youtube.com/embed/Vw-x7yTTO0s&quot;&#10;	        :height &quot;367&quot;&#10;	        :width &quot;653&quot;}]]&#10;	  &#10;"/>
+      <outline text="this carefully crafted [[Glossary]] might be helpful"/>
+      <outline text="Check out the full documentation in the Right Sidebar -&gt;"/>
+    </outline>
+  </body>
+</opml>

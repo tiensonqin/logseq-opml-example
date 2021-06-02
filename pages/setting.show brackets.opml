@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      setting/show brackets
+    </title>
+  </head>
+  <body>
+    <outline text="You can leverage `show brackets` setting to toggle whether display brackets or not"/>
+    <outline text="Alternatively press `Ctrl-c Ctrl-b` (Cmd for mac) to toggle this setting when not in text editing"/>
+    <outline text="demo:">
+      <outline text="[[example1]]"/>
+      <outline text="[[example2]]"/>
+      <outline text="![toggle-brackets.gif](assets/toggle-brackets_1622105057516_0.gif)"/>
+    </outline>
+  </body>
+</opml>

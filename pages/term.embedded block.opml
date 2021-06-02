@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      term/embedded block
+    </title>
+  </head>
+  <body>
+    <outline text="description:">
+      <outline text="shows a block from one Logseq page within a block of a different page and is marked by a different colored background."/>
+    </outline>
+    <outline text="produced by:">
+      <outline text="an embedded block is produced by typing /embed, selecting Block embed, and pasting the block ref at the default cursor location. The result, in editing mode, will be something like this: `{{embed ((60011009-ddd9-4a8c-8925-37249791f525))}}`"/>
+    </outline>
+    <outline text="example:">
+      <outline text="type `/Block Embed`"/>
+      <outline text="{{embed ((60a77d63-7340-4c1d-8bbc-68bd4e49fc6c))}}"/>
+    </outline>
+  </body>
+</opml>

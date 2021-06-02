@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      markdown
+    </title>
+  </head>
+  <body>
+    <outline text="Logseq support most [[Markdown]] syntaxes, and includes some extended syntaxes.">
+      <outline text="**Standard** syntax"/>
+      <outline text="`**Bold**`   -&gt; **Bold**"/>
+      <outline text="`_Italics_ ` -&gt; *Italics*"/>
+      <outline text="`~~Strikethrough~~` -&gt; ~~Strikethrough~~"/>
+      <outline text="`^^Highlight^^` -&gt; ^^Highlight^^"/>
+      <outline text="" _note="[:div [:code  &quot;`Code`&quot;]  &quot;-&gt; &quot; [:code &quot;Code&quot;]]"/>
+      <outline text="`[label](https://example.com)` -&gt; [label](https://example.com)"/>
+      <outline text="`![image](https://asset.logseq.com/static/img/logo.png)` -&gt; ![image](https://asset.logseq.com/static/img/logo.png){:height 53, :width 42}"/>
+      <outline text="and so on..."/>
+      <outline text="**Extended** syntax"/>
+      <outline text="[[term/page link]]">
+        <outline text="syntax: `[[page name]]`"/>
+      </outline>
+      <outline text="[[term/block link]]">
+        <outline text="syntax: `((block-uuid))`"/>
+        <outline text="How can I get a *block-uuid* ?">
+          <outline text="Copy a block-reference using shortcut">
+            <outline text="![2021-05-21 18.41.54.gif](../assets/2021-05-21_18.41.54_1621593786418_0.gif){:height 354, :width 437}"/>
+          </outline>
+          <outline text="Select a block when auto-completing">
+            <outline text="![2021-05-21 18.45.31.gif](../assets/2021-05-21_18.45.31_1621593958149_0.gif){:height 352, :width 442}"/>
+          </outline>
+        </outline>
+      </outline>
+      <outline text="[[term/embedded page]]">
+        <outline text="syntax: `{{embed [[page name]]}}`"/>
+        <outline text="It will embed whole page content into current editing block."/>
+      </outline>
+      <outline text="[[term/embedded block]]">
+        <outline text="syntax: `{{embed ((block-uuid))}}`"/>
+        <outline text="It will embed whole block content into current editing block."/>
+      </outline>
+      <outline text="[[term/properties]]">
+        <outline text="syntax: `property:: value`"/>
+        <outline text="some examples">
+          <outline text="[[Templates]] related properties">
+            <outline text="" _note="[:code &quot;template:: template-name&quot;]"/>
+            <outline text="" _note="[:code &quot;including-parent:: false&quot;]"/>
+            <outline text="{{embed ((60a790f8-d187-499a-b2e2-73bf137356dd))}}"/>
+          </outline>
+        </outline>
+        <outline text="see also: [[Block properties]]"/>
+      </outline>
+      <outline text="[[term/page link with label]]">
+        <outline text="syntax: `[display text]([[page name]])`"/>
+      </outline>
+      <outline text="[[term/block link with label]]">
+        <outline text="syntax: `[display text](((block-uuid)))`"/>
+      </outline>
+      <outline text="[[Tasks &amp; Todos]] marker">
+        <outline text="syntax: `TODO` `DOING` `DONE` `LATER` `NOW`"/>
+        <outline text="These markers can be set with commands( `/TODO` )" _note="		  or shortcut(default `ctrl/cmd+enter` )&#10;"/>
+      </outline>
+      <outline text="Priority">
+        <outline text="syntax: `[#A]` `[#B]` `[#C]`"/>
+        <outline text="Priorities can be set with commands( `/A` , `/B` , `/C` )"/>
+      </outline>
+      <outline text="[[Hiccup]]">
+        <outline text="Sometimes you want to express more complex text structure, you can embed Hiccup in blocks."/>
+        <outline text="example">
+          <outline text="`[:p &quot;Hello &quot; [:em &quot;World!&quot;]]`" _note="			  -&gt; [:p &quot;Hello &quot; [:em &quot;World!&quot;]]&#10;"/>
+        </outline>
+        <outline text="[Hiccup syntax here](https://github.com/weavejester/hiccup/wiki/Syntax)"/>
+      </outline>
+      <outline text="inline latex">
+        <outline text="`$$E = mc^2$$` -&gt; $$E = mc^2$$"/>
+      </outline>
+    </outline>
+  </body>
+</opml>

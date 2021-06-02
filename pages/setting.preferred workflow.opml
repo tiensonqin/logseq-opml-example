@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      setting/preferred workflow
+    </title>
+  </head>
+  <body>
+    <outline text="this setting allows you to toggle between workflow style:">
+      <outline text="`NOW/LATER` (default)"/>
+      <outline text="`TODO/DOING`"/>
+    </outline>
+    <outline text="check [[Tasks &amp; Todos]] to learn more"/>
+  </body>
+</opml>
